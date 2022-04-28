@@ -115,7 +115,7 @@ header .signin_btn {
     height: 800px;
     overflow: hidden;
     background-color: #03045E;
-    background-image: url(../images/hero_bg.svg);
+    background-image: url(../images/hero_bg.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -129,13 +129,13 @@ header .signin_btn {
 }
 
 .hero_top .hero_box .grey_one h5 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     color: #F48013;
 }
 
 .hero_top .hero_box .grey_one p {
-    font-size: 40px;
+    font-size: 36px;
     color: #fff;
 }
 
