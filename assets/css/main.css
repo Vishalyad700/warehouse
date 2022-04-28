@@ -115,7 +115,7 @@ header .signin_btn {
     height: 800px;
     overflow: hidden;
     background-color: #03045E;
-    background-image: url(../images/hero_bg.png);
+    background-image: url(../images/hero_bg.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
