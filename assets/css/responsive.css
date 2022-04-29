@@ -180,6 +180,11 @@
     .accor .general_box .accordion .accordion-item .accordion-button {
         font-size: 18px;
     }
+
+    .open_j ul li span {
+        color: #fff;
+      font-size: 14px !important;
+    }
 }
 
 @media only screen and (max-width:475px) {

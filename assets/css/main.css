@@ -119,7 +119,6 @@ header .signin_btn {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .hero_top .hero_box {
@@ -129,13 +128,13 @@ header .signin_btn {
 }
 
 .hero_top .hero_box .grey_one h5 {
-    font-size: 50px;
+    font-size: 44px;
     font-weight: 700;
     color: #F48013;
 }
 
 .hero_top .hero_box .grey_one p {
-    font-size: 36px;
+    font-size: 34px;
     color: #fff;
 }
 
@@ -494,9 +493,12 @@ footer .open_box .signin_btn:hover {
 
 .owner_img {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: -1px;
+    bottom: -1px;
+    border-radius: 20px;
+    overflow: hidden;
 }
+
 
 .owner_img img {
     width: 100%;
