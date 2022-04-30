@@ -1,0 +1,151 @@
+.signin_btn {
+    padding: 12px 48px;
+    background-color: #F48013;
+    border-radius: 25px;
+    color: #fff !important;
+    font-weight: 500;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.signin_btn:hover {
+    background-color: #03045E;
+}
+
+
+/*--Login--*/
+
+.login_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFBFE;
+    padding: 30px;
+    height: 100vh;
+}
+
+.login_box .right_box {
+    padding: 20px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(232, 232, 232, 0.5);
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.login_box .right_box .grey_box {
+    width: 100%;
+    max-width: 571px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.login_box .right_box .grey_box .logo_img {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 150px;
+}
+
+.login_box .right_box .grey_box .wel_come h5 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #F48013;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.login_box .right_box .grey_box .wel_come p {
+    color: #4D4D4D;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.login_box .right_box .grey_box form .form_group label {
+    font-size: 16px;
+    color: #000;
+}
+
+.login_box .right_box .grey_box form .form_group .open {
+    position: relative;
+}
+
+.login_box .right_box .grey_box form .form_group .open input {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 40px;
+    border-color: #EFF0F6;
+    padding-left: 12%;
+    box-shadow: 0px 4px 22px rgba(8, 15, 52, 0.03);
+}
+
+.login_box .right_box .grey_box form .form_group .open input::placeholder {
+    color: #787878;
+}
+
+.login_box .right_box .grey_box form .form_group .open svg {
+    position: absolute;
+    top: 50%;
+    left: 23px;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #03045E;
+}
+
+.opop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.opop .form-check {
+    margin-bottom: 0px;
+}
+
+.opop .form-check .form-check-input:checked {
+    background-color: #03045E;
+}
+
+.opop label {
+    color: #03045E;
+}
+
+.opop a {
+    color: #03045E;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.opop a:hover {
+    text-decoration: underline;
+}
+
+.login_box .right_box .grey_box form .login_btn {
+    display: block;
+    text-transform: uppercase;
+    padding: 13px 15px;
+}
+
+.create-text {
+    color: #4d4d4d;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.create-text a {
+    color: #349EB8;
+    font-weight: 700;
+}
+
+.sign_with {
+    text-align: center;
+}
