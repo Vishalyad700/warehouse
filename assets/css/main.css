@@ -18,11 +18,11 @@ li {
 }
 
 .signin_btn {
-    padding: 12px 48px;
+    padding: 10px 30px;
     background-color: #F48013;
     border-radius: 30px 30px 0px 30px;
     color: #fff !important;
-    font-weight: 500;
+    font-weight: 400;
     text-align: center;
     transition: all .3s ease-in-out;
     text-decoration: none;
@@ -58,7 +58,8 @@ header .navbar .navbar-nav .nav-item .nav-link {
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Poppins';
+    font-size: 16px;
     color: #1D1D1D;
 }
 
@@ -99,7 +100,7 @@ header .navbar .navbar-nav .nav-item .log_in {
 
 header .signin_btn {
     width: 120px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .signin_btn::after {
