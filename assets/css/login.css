@@ -73,7 +73,7 @@
 
 .login_box .right_box .grey_box form .form_group label {
     font-size: 16px;
-    color: #000;
+    color: rgb(0, 0, 0);
     font-family: Poppins;
 }
 
@@ -166,4 +166,58 @@
     
 .close_action a:hover {
         text-decoration: underline;
+    }
+
+
+
+    /* responsive */
+
+    @media only screen and (max-width:1440px) {
+        .login_box .right_box {
+        width: 100%;
+        }
+
+    }
+
+    @media only screen and (max-width:475px) {
+        .login_box .right_box .grey_box form .form_group .open input {
+            padding-left: 20%;
+        }
+    }
+
+    @media only screen and (max-width:375px) {
+        .login_box .right_box .grey_box form .form_group .open input {
+            padding-left: 20%;
+        }
+
+        .login_box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #FAFBFE;
+            padding: 20px;
+            height: 100vh;
+        }
+        .login_box .right_box {
+            padding: 24px 24px 4px 24px;
+        }
+}
+
+
+        @media only screen and (max-width:320px) {
+            .login_box .right_box .grey_box form .form_group .open input {
+                padding-left: 24%;
+            }
+
+            .login_box {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #FAFBFE;
+                padding: 20px;
+                height: 100vh;
+            }
+            .login_box .right_box {
+                padding: 18px 18px 4px 18px;
+            }
     }
